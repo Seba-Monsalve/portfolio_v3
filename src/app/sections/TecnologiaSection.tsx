@@ -1,6 +1,6 @@
 import React from 'react'
 import { Title } from '../components/Title'
-import { FaBootstrap, FaCss3Alt, FaDatabase, FaDocker, FaGitAlt, FaHtml5, FaNodeJs, FaReact, FaSass, FaSquareJs } from 'react-icons/fa6'
+import { FaBootstrap, FaCss3Alt, FaDocker, FaGitAlt, FaHtml5, FaNodeJs, FaReact, FaSass, FaSquareJs } from 'react-icons/fa6'
 import { RiNextjsFill } from 'react-icons/ri'
 import { BiLogoTailwindCss } from 'react-icons/bi'
 import { SiMongodb, SiPowerbi, SiShadcnui, SiTypescript } from 'react-icons/si'
