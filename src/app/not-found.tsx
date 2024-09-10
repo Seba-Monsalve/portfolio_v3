@@ -22,7 +22,7 @@ function NotFoundPage() {
                     <li>Fernando Herrera</li>
                     <li>MiduDev </li>
                     <li className="italic">
-                        A todos los maestros que (me han ) <span className="line-through">he</span>  encontrado en el camino...
+                       [!] A todos los maestros que  <span className="line-through">he</span> me han encontrado en el camino...
                     </li>
 
                 </ul>

@@ -7,17 +7,17 @@ export const ProyectosSection = () => {
         {
             title: 'Portafolio V2',
             url: 'https://portafoliov2-pearl.vercel.app/',
-            img: '/images/portfolio.jpg'
+            img: '/src/assets/images/portfolio.jpg'
         },
         {
             title: 'AluraGeek',
             url: 'https://seba-monsalve.github.io/alura-alura_geek/',
-            img: '/images/alurageek.jpg',
+            img: '/src/assets/images/alurageek.jpg',
         },
         {
             title: 'CipherAlura',
             url: 'https://seba-monsalve.github.io/alura-encriptador/',
-            img: '/images/alura_encriptador.png',
+            img: '/src/assets/images/alura_encriptador.png',
         },
 
 
