@@ -8,16 +8,13 @@ import { HabilidadesSection } from './sections/HabilidadesSection';
 import { IdiomasSection } from "./sections/IdiomasSection";
 import { ProyectosSection } from "./sections/ProyectosSection";
 import { ModeToggle } from "./components/ModeToggle";
-import { TooltipProvider } from '@/components/ui/tooltip';
 
 export default function Home() {
   return (
     <>
       <div className="flex flex-row  gap-5 transition-all p-10 rounded-b-3xl 
-      
        bg-[#486869] 
        hover:bg-[#bb944a]
-
       hover:dark:bg-[#825d87]
       dark:bg-[#5d729a]
       ">
@@ -26,7 +23,7 @@ export default function Home() {
             <span className="text-5xl w-3/5 text-white">Seba</span>
             <span className="text-5xl rotate-3 px-1 bg-cyan-300">Monsalve</span>
           </div>
-          <p className="w-2/3 text-gray-300">Me llamo Sebastian Monsalve y soy un programador         Full Stack.
+          <p className="w-2/3 text-gray-200">Me llamo <b>Sebastian Monsalve</b> y soy un programador <b>Full Stack</b>.
             <br />
             Con un amplio background en distintas tecnologias, busco la oportunidad de aprender y otorgar valor a traves de mi conocimientos en programación. </p>
         </div>
@@ -43,7 +40,7 @@ export default function Home() {
       <div className="flex md:flex-row w-full flex-col">
         {/* CLOUMNA1 */}
         <div className="flex flex-col w-full items-center p-4 rounded-xxl  ">
-          <Image alt='fotoperfil' width={300} height={300} className=" grayscale-0 hover:grayscale  shadow-xl transition-all bg-white -rotate-6  border hover:rotate-0 " src={profilePic} />
+          <Image alt='fotoperfil' width={300} height={300} className=" grayscale-0 hover:grayscale  shadow-xl hover:shadow-gray-700 transition-all bg-white -rotate-6  border hover:rotate-0 " src={profilePic} />
           <br />
           <FormationInfo />
         </div>

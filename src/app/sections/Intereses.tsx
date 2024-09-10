@@ -14,7 +14,7 @@ export const InteresSection = () => {
       <div className="flex flex-row items-center hover:font-semibold justify-evenly hover:scale-125  transition-all duration-150"><MdForest size={40} /> Naturaleza</div>
       <div className="flex flex-row items-center hover:font-semibold justify-evenly hover:scale-125  transition-all duration-150"><FaBowlFood size={40} /> Comida</div>
       <div className="flex flex-row items-center hover:font-semibold justify-evenly hover:scale-125  transition-all duration-150"><ImBooks size={40} /> Libros</div>
-      <div className="flex flex-row items-center hover:font-semibold justify-evenly hover:scale-125  transition-all duration-150"><FaComputer size={40} /> Coding</div>
+      <div className="flex flex-row items-center hover:font-semibold justify-evenly hover:scale-125  transition-all duration-150"><FaComputer size={40} /> Coding [!]</div>
     </div>
   </div>
   )

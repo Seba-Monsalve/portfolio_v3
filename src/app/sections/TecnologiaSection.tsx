@@ -86,7 +86,9 @@ export const TecnologiaSection = () => {
                     </Tooltip>
                     <Tooltip>
                         <TooltipTrigger asChild>
-                            < FaBootstrap size={60} className='hover:fill-purple-900 shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250' />
+                            < FaBootstrap size={60} className='
+                            dark:hover:fill-purple-500
+                            hover:fill-purple-900 shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250' />
                         </TooltipTrigger>
                         <TooltipContent side='bottom' >
                             <p>Bootstrap</p>
@@ -110,7 +112,10 @@ export const TecnologiaSection = () => {
                     </Tooltip>
                     <Tooltip>
                         <TooltipTrigger asChild>
-                            < FaDocker size={60} className='hover:fill-blue-600  shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250' />
+                            < FaDocker size={60} className='
+                            dark:hover:fill-blue-400
+                            hover:fill-blue-600
+                              shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250' />
                         </TooltipTrigger>
                         <TooltipContent side='bottom' >
                             <p>Docker</p>
