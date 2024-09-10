@@ -5,11 +5,11 @@ import { IoMdMail } from 'react-icons/io'
 
 export const ContactInfo = () => {
   return (
-    <div className='grid grid-cols-2 gap-2 '>
-      <Link className='flex flex-row items-center gap-4 hover:animate-pulse hover:border-1 ' href={'https://wa.me/+56986137348'} ><FaPhoneSquare size={50} /> WhatsApp </Link>
-      <Link className='flex flex-row items-center gap-4 hover:animate-pulse hover:border-1 ' href={'mailto:sebastian.monsalve@usach.cl'} ><IoMdMail size={50} /> Email </Link>
-      <Link className='flex flex-row items-center gap-4 hover:animate-pulse hover:border-1 ' href={'https://github.com/Seba-Monsalve'} ><FaGithub size={50} /> GitHub </Link>
-      <Link className='flex flex-row items-center gap-4 hover:animate-pulse hover:border-1 ' href={'https://www.linkedin.com/in/seba-monsalve/'} ><FaLinkedinIn size={50} /> LinkedIn </Link>
+    <div className='flex justify-center items-center gap-5 '>
+      <Link className='flex flex-row items-center gap-4 transition-all hover: hover:border-1 hover:bg-[#9c9389] p-3 rounded-lg ' href={'https://wa.me/+56986137348'} ><FaPhoneSquare className='hover:fill-white' size={40} />  </Link>
+      <Link className='flex flex-row items-center gap-4 transition-all hover: hover:border-1 hover:bg-[#9c9389] p-3 rounded-lg ' href={'mailto:sebastian.monsalve@usach.cl'} ><IoMdMail className='hover:fill-white' size={40} />  </Link>
+      <Link className='flex flex-row items-center gap-4 transition-all hover: hover:border-1 hover:bg-[#9c9389] p-3 rounded-lg ' href={'https://github.com/Seba-Monsalve'} ><FaGithub className='hover:fill-white' size={40} />  </Link>
+      <Link className='flex flex-row items-center gap-4 transition-all hover: hover:border-1 hover:bg-[#9c9389] p-3 rounded-lg ' href={'https://www.linkedin.com/in/seba-monsalve/'} ><FaLinkedinIn className='hover:fill-white' size={40} />  </Link>
     </div>
   )
 }

@@ -8,7 +8,7 @@ export const InteresSection = () => {
   return (
     <div>
     <Title > Intereses</Title>
-    <div className="grid grid-cols-3 gap-5 p-3">
+    <div className="grid grid-cols-3 gap-5 p-6 font-semibold" >
       <div className="flex flex-row items-center hover:font-semibold justify-evenly hover:scale-125  transition-all duration-150"><GiGuitarHead size={40} /> Musica</div>
       <div className="flex flex-row items-center hover:font-semibold justify-evenly hover:scale-125  transition-all duration-150"><GiCoffeeBeans size={40} /> Café</div>
       <div className="flex flex-row items-center hover:font-semibold justify-evenly hover:scale-125  transition-all duration-150"><MdForest size={40} /> Naturaleza</div>
