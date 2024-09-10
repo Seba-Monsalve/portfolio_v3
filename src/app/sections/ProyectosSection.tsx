@@ -1,23 +1,27 @@
 import { CarouselOrientation } from '../components/Carousel';
 import { Title } from '../components/Title';
 
+import imgCipheralura from '@/assets/images/alura_encriptador.png'
+import imgAlurageek from '@/assets/images/alurageek.jpg'
+import imgPortafolio from '@/assets/images/portfolio.jpg'
+
 export const ProyectosSection = () => {
 
     const projects = [
         {
             title: 'Portafolio V2',
             url: 'https://portafoliov2-pearl.vercel.app/',
-            img: '../../assets/images/portfolio.jpg'
+            img: imgPortafolio
         },
         {
             title: 'AluraGeek',
             url: 'https://seba-monsalve.github.io/alura-alura_geek/',
-            img: '../../assets/images/alurageek.jpg',
+            img: imgAlurageek
         },
         {
             title: 'CipherAlura',
             url: 'https://seba-monsalve.github.io/alura-encriptador/',
-            img: '../../assets/images/alura_encriptador.png',
+            img: imgCipheralura
         },
 
 
@@ -28,7 +32,6 @@ export const ProyectosSection = () => {
             <br />
             <div className=' flex flex-col items-center'>
                 <CarouselOrientation projects={projects} />
-
             </div>
         </>
     )

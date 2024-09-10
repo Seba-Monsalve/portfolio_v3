@@ -8,11 +8,11 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
-import Image from "next/image"
+import Image, { StaticImageData } from "next/image"
 import Link from "next/link"
 
 interface Props {
-  projects: { url: string, img: string, title: string }[]
+  projects: { url: string, img: StaticImageData, title: string }[]
 }
 
 export function CarouselOrientation({ projects }: Props) {
@@ -31,7 +31,7 @@ export function CarouselOrientation({ projects }: Props) {
               <Card>
                 <Link href={url} target="_blank" rel='noopener' >
                 <CardContent className="flex flex-col items-center justify-center p-2 rounded-lg h-[100px]">
-                  <Image src={img} width={150} height={150} alt={"Iamgen proyecto"} className="rounded-lg object-fill " ></Image>
+                  <Image src={img} width={150} height={150} alt={"Imagen proyecto"} className="rounded-lg object-fill " ></Image>
                   <h1>{title}</h1>
                 </CardContent>
                 </Link>
