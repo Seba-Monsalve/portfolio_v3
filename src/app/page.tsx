@@ -8,6 +8,7 @@ import { HabilidadesSection } from './sections/HabilidadesSection';
 import { IdiomasSection } from "./sections/IdiomasSection";
 import { ProyectosSection } from "./sections/ProyectosSection";
 import { ModeToggle } from "./components/ModeToggle";
+import { TooltipProvider } from '@/components/ui/tooltip';
 
 export default function Home() {
   return (
@@ -32,7 +33,7 @@ export default function Home() {
         {/* 
         <div>
           Minim do deserunt proident quis fugiat nostrud. Dolore tempor officia laboris sit commodo qui adipisicing adipisicing pariatur labore dolore occaecat irure. Ipsum id qui ut excepteur.</div> */}
-        <ModeToggle  />
+        <ModeToggle />
       </div>
 
       {/* <div className="bg-green-400 w-full p-2">
@@ -65,6 +66,7 @@ export default function Home() {
           <ProyectosSection />
         </div>
       </div>
+
       <ContactSection />
     </>
   );

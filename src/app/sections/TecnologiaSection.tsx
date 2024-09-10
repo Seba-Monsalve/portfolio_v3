@@ -17,10 +17,10 @@ export const TecnologiaSection = () => {
                     <Tooltip>
                         <TooltipTrigger asChild>
                             < FaHtml5 size={60} className='
-                            dark:fill-white 
-                            dark:hover:bg-slate-200 
+                            
                              hover:fill-blue-500
-                              dark:hover:fill-blue-500 shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10 transition-all duration-250' />
+                              
+                              shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10 transition-all duration-250' />
                         </TooltipTrigger>
                         <TooltipContent side='bottom' >
                             <p>HTML5</p>
@@ -29,7 +29,8 @@ export const TecnologiaSection = () => {
 
                     <Tooltip>
                         <TooltipTrigger asChild>
-                            < FaCss3Alt size={60} className='hover:fill-orange-500  shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250' />
+                            < FaCss3Alt size={60} className='
+                            hover:fill-orange-500  shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250' />
                         </TooltipTrigger>
                         <TooltipContent side='bottom' >
                             <p>CSS3</p>

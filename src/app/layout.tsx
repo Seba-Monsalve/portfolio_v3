@@ -17,17 +17,20 @@ export default function RootLayout({
       <head>
         <title>Portafolio - Seba Monsalve</title>
       </head>
+      <body  >
 
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange
-          >
-        <body className="dark:bg-[#243141] dark:text-slate-300 transition-all" >
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <div className="transition-all dark:bg-[#243141] dark:text-slate-300 ">
+
             {children}
-        </body>
-          </ThemeProvider>
-      </html>
+          </div>
+        </ThemeProvider>
+      </body>
+    </html>
   )
 }
