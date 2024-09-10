@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { ThemeProvider } from "next-themes";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,10 +17,17 @@ export default function RootLayout({
       <head>
         <title>Portafolio - Seba Monsalve</title>
       </head>
-      <body
-      >
-        {children}
-      </body>
-    </html>
-  );
+
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+        <body className="dark:bg-[#243141] dark:text-slate-300 transition-all" >
+            {children}
+        </body>
+          </ThemeProvider>
+      </html>
+  )
 }

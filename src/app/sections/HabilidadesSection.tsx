@@ -9,7 +9,7 @@ export const HabilidadesSection = () => {
     return (
         <div className="flex flex-col gap-3">
             <Title > Habilidades</Title>
-            <div className="grid grid-cols-2 w-full gap-3">
+            <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 w-full gap-3">
                 <div className="flex flex-row items-center  justify-around p-1  bg-[#c9b753] opacity-100
     text-white rounded-lg hover:opacity-70 cursor-pointer ">
                     <FaBugSlash size={40} />Bug hunter
