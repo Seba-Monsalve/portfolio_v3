@@ -11,7 +11,7 @@ import { ProyectosSection } from "./sections/ProyectosSection";
 export default function Home() {
   return (
     <>
-      <div className="flex flex-row  gap-5 transition-all bg-[#486869] p-10 hover:bg-[#bb944a]">
+      <div className="flex flex-row  gap-5 transition-all bg-[#486869] p-10 hover:bg-[#bb944a] rounded-br-3xl">
         <div className=" flex flex-row  items-center justify-center gap-9">
           <div className="flex flex-col gap-1 ">
             <span className="text-5xl w-3/5 text-white">Seba</span>

@@ -3,14 +3,14 @@ interface Props {
     year: string,
     title: string,
     icon: string,
-    position: string,
-    workplace: string
+    workplace: string,
+    cn?:string
 }
 
-export const FormationItem = ({ year, title, workplace }: Props) => {
+export const FormationItem = ({ year, title, workplace,cn }: Props) => {
     return (
         <div className=" border-transparent border-4  rounded-lg text-white" >
-            <div className="flex flex-row   bg-orange-400 px-3 py-2 border-2 rounded-lg  ">
+            <div className={`flex flex-row   bg-orange-500 px-3 py-2 border-2 rounded-lg ${cn} hover:opacity-95 opacity-80 `}>
                 <div className="">
                     <p className="text-sm"> {year}</p>
                     <h2 className="text-xl">{title}</h2>
