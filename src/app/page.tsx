@@ -8,7 +8,7 @@ import { HabilidadesSection } from "./sections/HabilidadesSection";
 import { IdiomasSection } from "./sections/IdiomasSection";
 import { ProyectosSection } from "./sections/ProyectosSection";
 import { ModeToggle } from "./components/ModeToggle";
-import { Logo } from "./components/logo";
+import { Logo } from "./components/Logo";
 
 export default function Home() {
   return (
@@ -22,7 +22,7 @@ export default function Home() {
       "
       >
         <div className=" flex flex-col md:flex-row  items-center justify-center gap-9">
-          <Logo textSize={'text-5xl'}/>
+          <Logo textSize='text-5xl'/>
           <p className="w-2/3 text-gray-200">
             Mi nombre <b>Sebastian Monsalve</b> y soy un programador{" "}
             <b>Full Stack</b>.

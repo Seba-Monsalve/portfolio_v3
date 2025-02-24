@@ -1,6 +1,9 @@
 import React from "react";
+interface Props {
+  textSize:string
+}
 
-export const Logo = ({textSize}) => {
+export const Logo = ({textSize}:Props) => {
   return (
     <div className="flex flex-col gap-1 text-white hover:scale-125 transition duration-150 ease-in-out">
       <span className={`${textSize} w-3/5 text-white`}>Seba</span>
