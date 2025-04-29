@@ -13,7 +13,7 @@ import {
 } from "react-icons/fa6";
 import { RiNextjsFill } from "react-icons/ri";
 import { BiLogoTailwindCss } from "react-icons/bi";
-import { SiMongodb, SiPowerbi, SiPrisma, SiShadcnui, SiTypescript } from "react-icons/si";
+import { SiExpress, SiMongodb, SiPowerbi, SiPrisma, SiShadcnui, SiTypescript } from "react-icons/si";
 import {
   Tooltip,
   TooltipContent,
@@ -237,6 +237,18 @@ export const TecnologiaSection = () => {
             </TooltipTrigger>
             <TooltipContent side="bottom">
               <p>Prisma ORM </p>
+            </TooltipContent>
+          </Tooltip>
+
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <SiExpress
+                size={60}
+                className=" hover:bg-gray-900 hover:rounded-3xl shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
+              />
+            </TooltipTrigger>
+            <TooltipContent side="bottom">
+              <p>Express</p>
             </TooltipContent>
           </Tooltip>
         </TooltipProvider>
