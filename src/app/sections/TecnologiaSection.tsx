@@ -2,13 +2,13 @@
 import React from "react";
 import { Title } from "../components/Title";
 import {
-  FaAngular,
+  // FaAngular,
   FaBootstrap,
   FaCss3Alt,
   FaDocker,
   FaGitAlt,
   FaHtml5,
-  FaJenkins,
+  // FaJenkins,
   FaNodeJs,
   FaReact,
   FaSass,
@@ -18,7 +18,7 @@ import { RiNextjsFill } from "react-icons/ri";
 import { BiLogoTailwindCss } from "react-icons/bi";
 import {
   SiExpress,
-  SiJest,
+  // SiJest,
   SiMongodb,
   SiNestjs,
   SiPrisma,
