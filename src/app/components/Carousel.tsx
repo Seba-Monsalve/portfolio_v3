@@ -5,8 +5,6 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "@/components/ui/carousel"
 import Image, { StaticImageData } from "next/image"
 import Link from "next/link"
@@ -18,32 +16,43 @@ interface Props {
 export function CarouselOrientation({ projects }: Props) {
   return (
     <Carousel
-      opts={{
-        align: "start",
-      }}
-      orientation="horizontal"
-      className="w-full max-w-xs"
-    >
-      <CarouselContent className="-mt-1 h-[150px]">
-        {projects.map(({img,url,title}, index) => (
-          <CarouselItem key={index} className="pt-1 md:basis-1/2">
-            <div className="p-1">
-              <Card>
-                <Link href={url} target="_blank" rel='noopener' >
-                <CardContent className="flex flex-col items-center justify-center p-2 rounded-lg h-[100px]">
-                  <Image src={img} width={150} height={150} alt={"Imagen proyecto"} className="rounded-lg object-fill " ></Image>
-                  <h1>{title}</h1>
-                </CardContent>
-                </Link>
+      opts={
+        { loop: true, dragFree: true, }
 
+      }
+      className="w-full max-w-sm"
+      orientation="horizontal"
+    >
+      <CarouselContent>
+        {Array.from({ length: 5 }).map((_, index) => (
+          <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+            <div className="p-1 max-h-[200px]" >
+              <Card>
+                <CardContent className="flex aspect-square items-center justify-center p-6">
+
+                  <Link href={projects
+                    ? projects[index].url
+                    : "#"}
+                    target="_blank"
+                    className="flex flex-col items-center justify-center w-full h-full"
+                  >
+                    <Image
+                      src={projects[index].img}
+                      alt={projects[index].title}
+                      className="rounded-lg object-cover"
+                      width={300}
+                      height={300}
+
+                    />
+                    <h2 className="line-clamp-3">{projects[index].title}</h2>
+                  </Link>
+
+                </CardContent>
               </Card>
             </div>
           </CarouselItem>
-        ))
-        }
-      </CarouselContent >
-      <CarouselPrevious />
-      <CarouselNext />
-    </Carousel >
+        ))}
+      </CarouselContent>
+    </Carousel>
   )
 }

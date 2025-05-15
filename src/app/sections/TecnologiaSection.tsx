@@ -1,11 +1,14 @@
+"use client";
 import React from "react";
 import { Title } from "../components/Title";
 import {
+  FaAngular,
   FaBootstrap,
   FaCss3Alt,
   FaDocker,
   FaGitAlt,
   FaHtml5,
+  FaJenkins,
   FaNodeJs,
   FaReact,
   FaSass,
@@ -13,7 +16,15 @@ import {
 } from "react-icons/fa6";
 import { RiNextjsFill } from "react-icons/ri";
 import { BiLogoTailwindCss } from "react-icons/bi";
-import { SiExpress, SiMongodb, SiPowerbi, SiPrisma, SiShadcnui, SiTypescript } from "react-icons/si";
+import {
+  SiExpress,
+  SiJest,
+  SiMongodb,
+  SiNestjs,
+  SiPrisma,
+  SiShadcnui,
+  SiTypescript,
+} from "react-icons/si";
 import {
   Tooltip,
   TooltipContent,
@@ -26,7 +37,7 @@ export const TecnologiaSection = () => {
   return (
     <div>
       <Title> Tecnologías</Title>
-      <div className="grid grid-cols-3 h-[200px] lg:h-full sm:grid-cols-4 md:grid-cols-2 lg:grid-cols-4 gap-y-5 p-6 justify-center items-center overflow-auto rounded-lg bg-gray-100 dark:bg-gray-800 shadow-lg">
+      <div className="grid grid-cols-3 h-[350px] lg:h-fit sm:grid-cols-5 md:grid-cols-2 lg:grid-cols-5 gap-y-5 p-3 justify-center items-center overflow-auto rounded-lg bg-gray-100 dark:bg-gray-800 shadow-lg">
         <TooltipProvider delayDuration={100}>
           <Tooltip>
             <TooltipTrigger asChild>
@@ -171,7 +182,8 @@ export const TecnologiaSection = () => {
               <p>Docker</p>
             </TooltipContent>
           </Tooltip>
-          <Tooltip>
+
+          {/* <Tooltip>
             <TooltipTrigger asChild>
               <SiPowerbi
                 size={60}
@@ -181,7 +193,7 @@ export const TecnologiaSection = () => {
             <TooltipContent side="bottom">
               <p>PowerBI</p>
             </TooltipContent>
-          </Tooltip>
+          </Tooltip> */}
           <Tooltip>
             <TooltipTrigger asChild>
               <DiMsqlServer
@@ -215,7 +227,7 @@ export const TecnologiaSection = () => {
               <p>Shadcn/UI </p>
             </TooltipContent>
           </Tooltip>
-          
+
           <Tooltip>
             <TooltipTrigger asChild>
               <DiPostgresql
@@ -240,17 +252,70 @@ export const TecnologiaSection = () => {
             </TooltipContent>
           </Tooltip>
 
+          {/* Express */}
           <Tooltip>
             <TooltipTrigger asChild>
               <SiExpress
                 size={60}
-                className=" hover:bg-gray-900 hover:rounded-3xl shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
+                className=" dark:hover:bg-gray-900 hover:rounded-3xl shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
               />
             </TooltipTrigger>
             <TooltipContent side="bottom">
               <p>Express</p>
             </TooltipContent>
           </Tooltip>
+
+          {/* NestJS */}
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <SiNestjs
+                size={60}
+                className=" hover:fill-red-600 hover:rounded-3xl shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
+              />
+            </TooltipTrigger>
+            <TooltipContent side="bottom">
+              <p>NestJS</p>
+            </TooltipContent>
+          </Tooltip>
+
+          {/* Angular */}
+          {/* <Tooltip>
+            <TooltipTrigger asChild>
+              <FaAngular
+                size={60}
+                className="hover:fill-red-600  hover:rounded-3xl shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
+              />
+            </TooltipTrigger>
+            <TooltipContent side="bottom">
+              <p>Angular</p>
+            </TooltipContent>
+          </Tooltip> */}
+
+          {/* Jenkins */}
+          {/* <Tooltip>
+            <TooltipTrigger asChild>
+              <FaJenkins
+                size={60}
+                className="shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
+              />
+            </TooltipTrigger>
+            <TooltipContent side="bottom">
+              <p>Jenkins</p>
+            </TooltipContent>
+          </Tooltip>
+           */}
+          {/* Jest */}
+          {/* <Tooltip>
+            <TooltipTrigger asChild>
+              <SiJest
+                size={60}
+                className="  hover:fill-red-500  shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
+              />
+            </TooltipTrigger>
+            <TooltipContent side="bottom">
+              <p>Jest</p>
+            </TooltipContent>
+          </Tooltip> */}
         </TooltipProvider>
       </div>
     </div>
