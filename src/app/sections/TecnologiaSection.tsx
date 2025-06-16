@@ -18,7 +18,7 @@ import { RiNextjsFill } from "react-icons/ri";
 import { BiLogoTailwindCss } from "react-icons/bi";
 import {
   SiExpress,
-  // SiJest,
+  SiJest,
   SiMongodb,
   SiNestjs,
   SiPrisma,
@@ -41,213 +41,302 @@ export const TecnologiaSection = () => {
         <TooltipProvider delayDuration={100}>
           <Tooltip>
             <TooltipTrigger asChild>
-              <FaHtml5
-                size={60}
-                className="
-                            
-                             hover:fill-blue-500
-                              
-                              shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10 transition-all duration-250"
-              />
-            </TooltipTrigger>
-            <TooltipContent side="bottom">
+              <div>
+
+                <FaHtml5
+                  size={60}
+                  className="
+                
+                hover:fill-blue-500
+                
+                
+                              shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
+                />
+              </div></TooltipTrigger>
+            <TooltipContent side="bottom" className="-mt-4 p-1 w-full">
+
+
               <p>HTML5</p>
             </TooltipContent>
           </Tooltip>
 
           <Tooltip>
             <TooltipTrigger asChild>
-              <FaCss3Alt
-                size={60}
-                className="
-                            hover:fill-orange-500  shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
-              />
-            </TooltipTrigger>
-            <TooltipContent side="bottom">
+              <div>
+
+                <FaCss3Alt
+                  size={60}
+                  className="
+                hover:fill-orange-500  shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10   transition-all duration-250"
+                />
+              </div></TooltipTrigger>
+
+            <TooltipContent side="bottom" className="-mt-4 p-1 w-full">
+
+
               <p>CSS3</p>
             </TooltipContent>
           </Tooltip>
           <Tooltip>
             <TooltipTrigger asChild>
-              <FaSquareJs
-                size={60}
-                className="hover:fill-yellow-500 shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
-              />
-            </TooltipTrigger>
-            <TooltipContent side="bottom">
+              <div>
+
+                <FaSquareJs
+                  size={60}
+                  className="hover:fill-yellow-500 shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10   transition-all duration-250"
+                />
+              </div></TooltipTrigger>
+            <TooltipContent side="bottom" className="-mt-4 p-1 w-full">
+
+
+
               <p>JavaScript</p>
             </TooltipContent>
           </Tooltip>
           <Tooltip>
             <TooltipTrigger asChild>
-              <SiTypescript
-                size={60}
-                className=" hover:fill-blue-500 shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
-              />
-            </TooltipTrigger>
-            <TooltipContent side="bottom">
+              <div>
+
+                <SiTypescript
+                  size={60}
+                  className=" hover:fill-blue-500 shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10   transition-all duration-250"
+                />
+              </div></TooltipTrigger>
+            <TooltipContent side="bottom" className="-mt-4 p-1 w-full">
+
+
+
               <p>TypeScript </p>
             </TooltipContent>
           </Tooltip>
           <Tooltip>
             <TooltipTrigger asChild>
-              <FaReact
-                size={60}
-                className=" hover:fill-blue-400 shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
-              />
-            </TooltipTrigger>
-            <TooltipContent side="bottom">
+              <div>
+
+                <FaReact
+                  size={60}
+                  className=" hover:fill-blue-400 shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10   transition-all duration-250"
+                />
+              </div></TooltipTrigger>
+            <TooltipContent side="bottom" className="-mt-4 p-1 w-full">
+
+
+
               <p>React JS / Native</p>
             </TooltipContent>
           </Tooltip>
           <Tooltip>
             <TooltipTrigger asChild>
-              <RiNextjsFill
-                size={60}
-                className="shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
-              />
-            </TooltipTrigger>
-            <TooltipContent side="bottom">
+              <div>
+
+                <RiNextjsFill
+                  size={60}
+                  className="shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10   transition-all duration-250"
+                />
+              </div></TooltipTrigger>
+            <TooltipContent side="bottom" className="-mt-4 p-1 w-full">
+
+
+
               <p>Next.js</p>
             </TooltipContent>
           </Tooltip>
           <Tooltip>
             <TooltipTrigger asChild>
-              <FaNodeJs
-                size={60}
-                className="hover:fill-green-700 shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
-              />
-            </TooltipTrigger>
-            <TooltipContent side="bottom">
+              <div>
+
+                <FaNodeJs
+                  size={60}
+                  className="hover:fill-green-700 shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10   transition-all duration-250"
+                />
+              </div></TooltipTrigger>
+            <TooltipContent side="bottom" className="-mt-4 p-1 w-full">
+
+
+
               <p>NodeJS</p>
             </TooltipContent>
           </Tooltip>
           <Tooltip>
             <TooltipTrigger asChild>
-              <FaSass
-                size={60}
-                className=" hover:fill-pink-500 shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
-              />
-            </TooltipTrigger>
-            <TooltipContent side="bottom">
+              <div>
+
+                <FaSass
+                  size={60}
+                  className=" hover:fill-pink-500 shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10   transition-all duration-250"
+                />
+              </div></TooltipTrigger>
+            <TooltipContent side="bottom" className="-mt-4 p-1 w-full">
+
+
+
               <p>SASS</p>
             </TooltipContent>
           </Tooltip>
           <Tooltip>
             <TooltipTrigger asChild>
-              <FaBootstrap
-                size={60}
-                className="
-                            dark:hover:fill-purple-500
-                            hover:fill-purple-900 shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
-              />
-            </TooltipTrigger>
-            <TooltipContent side="bottom">
+              <div>
+
+                <FaBootstrap
+                  size={60}
+                  className="
+                dark:hover:fill-purple-500
+                hover:fill-purple-900 shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10   transition-all duration-250"
+                />
+
+              </div></TooltipTrigger>
+            <TooltipContent side="bottom" className="-mt-4 p-1 w-full">
+
+
               <p>Bootstrap</p>
             </TooltipContent>
           </Tooltip>
           <Tooltip>
             <TooltipTrigger asChild>
-              <BiLogoTailwindCss
-                size={60}
-                className=" hover:fill-blue-400  shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
-              />
-            </TooltipTrigger>
-            <TooltipContent side="bottom">
+              <div>
+
+                <BiLogoTailwindCss
+                  size={60}
+                  className=" hover:fill-blue-400  shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10   transition-all duration-250"
+                />
+              </div></TooltipTrigger>
+            <TooltipContent side="bottom" className="-mt-4 p-1 w-full">
+
+
+
               <p>TailwindCss</p>
             </TooltipContent>
           </Tooltip>
           <Tooltip>
             <TooltipTrigger asChild>
-              <FaGitAlt
-                size={60}
-                className="hover:fill-orange-600  shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
-              />
-            </TooltipTrigger>
-            <TooltipContent side="bottom">
+              <div>
+
+                <FaGitAlt
+                  size={60}
+                  className="hover:fill-orange-600  shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10   transition-all duration-250"
+                />
+              </div></TooltipTrigger>
+            <TooltipContent side="bottom" className="-mt-4 p-1 w-full">
+
+
+
               <p>Git</p>
             </TooltipContent>
           </Tooltip>
           <Tooltip>
             <TooltipTrigger asChild>
-              <FaDocker
-                size={60}
-                className="
-                            dark:hover:fill-blue-400
-                            hover:fill-blue-600
-                              shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
-              />
-            </TooltipTrigger>
-            <TooltipContent side="bottom">
+              <div>
+
+                <FaDocker
+                  size={60}
+                  className="
+                dark:hover:fill-blue-400
+                hover:fill-blue-600
+                shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10   transition-all duration-250"
+
+                />
+              </div></TooltipTrigger>
+            <TooltipContent side="bottom" className="-mt-4 p-1 w-full">
+
+
               <p>Docker</p>
             </TooltipContent>
           </Tooltip>
 
           {/* <Tooltip>
             <TooltipTrigger asChild>
-              <SiPowerbi
-                size={60}
-                className="hover:fill-yellow-500  shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
-              />
-            </TooltipTrigger>
-            <TooltipContent side="bottom">
-              <p>PowerBI</p>
+            <div>
+            </div>
+            size={60}
+            className="hover:fill-yellow-500  shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10   transition-all duration-250"
+            />
+            </div></TooltipTrigger>
+                  <TooltipContent side="bottom" className="-mt-4 p-1 w-full">
+
+
+            <p>PowerBI</p>
+            
             </TooltipContent>
           </Tooltip> */}
           <Tooltip>
             <TooltipTrigger asChild>
-              <DiMsqlServer
-                size={60}
-                className="hover:fill-red-500 shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
-              />
-            </TooltipTrigger>
-            <TooltipContent side="bottom">
+              <div>
+
+                <DiMsqlServer
+                  size={60}
+                  className="hover:fill-red-500 shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10   transition-all duration-250"
+                />
+              </div></TooltipTrigger>
+            <TooltipContent side="bottom" className="-mt-4 p-1 w-full">
+
+
+
               <p>MS SQL</p>
             </TooltipContent>
           </Tooltip>
           <Tooltip>
             <TooltipTrigger asChild>
-              <SiMongodb
-                size={60}
-                className="hover:fill-green-700 shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
-              />
-            </TooltipTrigger>
-            <TooltipContent side="bottom">
+              <div>
+
+                <SiMongodb
+                  size={60}
+                  className="hover:fill-green-700 shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10   transition-all duration-250"
+                />
+              </div></TooltipTrigger>
+            <TooltipContent side="bottom" className="-mt-4 p-1 w-full">
+
+
+
               <p>Mongodb </p>
             </TooltipContent>
           </Tooltip>
           <Tooltip>
             <TooltipTrigger asChild>
-              <SiShadcnui
-                size={60}
-                className="shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
-              />
-            </TooltipTrigger>
-            <TooltipContent side="bottom">
+              <div>
+
+                <SiShadcnui
+                  size={60}
+                  className="shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10   transition-all duration-250"
+                />
+              </div></TooltipTrigger>
+            <TooltipContent side="bottom" className="-mt-4 p-1 w-full">
+
+
+
               <p>Shadcn/UI </p>
             </TooltipContent>
           </Tooltip>
 
           <Tooltip>
             <TooltipTrigger asChild>
-              <DiPostgresql
-                size={60}
-                className=" hover:fill-blue-500 shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
-              />
-            </TooltipTrigger>
-            <TooltipContent side="bottom">
+              <div>
+
+                <DiPostgresql
+                  size={60}
+                  className=" hover:fill-blue-500 shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10   transition-all duration-250"
+                />
+              </div></TooltipTrigger>
+            <TooltipContent side="bottom" className="-mt-4 p-1 w-full">
+
+
+
               <p>PostgreSQL </p>
             </TooltipContent>
           </Tooltip>
 
           <Tooltip>
             <TooltipTrigger asChild>
-              <SiPrisma
-                size={60}
-                className=" hover:fill-gray-400 shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
-              />
-            </TooltipTrigger>
-            <TooltipContent side="bottom">
+              <div>
+
+                <SiPrisma
+                  size={60}
+                  className=" hover:fill-gray-400 shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10   transition-all duration-250"
+                />
+              </div></TooltipTrigger>
+            <TooltipContent side="bottom" className="-mt-4 p-1 w-full">
+
+
+
               <p>Prisma ORM </p>
             </TooltipContent>
           </Tooltip>
@@ -255,12 +344,17 @@ export const TecnologiaSection = () => {
           {/* Express */}
           <Tooltip>
             <TooltipTrigger asChild>
-              <SiExpress
-                size={60}
-                className=" dark:hover:bg-gray-900 hover:rounded-3xl shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
-              />
-            </TooltipTrigger>
-            <TooltipContent side="bottom">
+              <div>
+
+                <SiExpress
+                  size={60}
+                  className=" dark:hover:bg-gray-900 hover:rounded-3xl shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10   transition-all duration-250"
+                />
+              </div></TooltipTrigger>
+            <TooltipContent side="bottom" className="-mt-4 p-1 w-full">
+
+
+
               <p>Express</p>
             </TooltipContent>
           </Tooltip>
@@ -268,12 +362,17 @@ export const TecnologiaSection = () => {
           {/* NestJS */}
           <Tooltip>
             <TooltipTrigger asChild>
-              <SiNestjs
-                size={60}
-                className=" hover:fill-red-600 hover:rounded-3xl shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
-              />
-            </TooltipTrigger>
-            <TooltipContent side="bottom">
+              <div>
+
+                <SiNestjs
+                  size={60}
+                  className=" hover:fill-red-600 hover:rounded-3xl shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10   transition-all duration-250"
+                />
+              </div></TooltipTrigger>
+            <TooltipContent side="bottom" className="-mt-4 p-1 w-full">
+
+
+
               <p>NestJS</p>
             </TooltipContent>
           </Tooltip>
@@ -281,43 +380,55 @@ export const TecnologiaSection = () => {
           {/* Angular */}
           {/* <Tooltip>
             <TooltipTrigger asChild>
-              <FaAngular
-                size={60}
-                className="hover:fill-red-600  hover:rounded-3xl shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
-              />
-            </TooltipTrigger>
-            <TooltipContent side="bottom">
-              <p>Angular</p>
+            <div>
+            </div>
+            size={60}
+            className="hover:fill-red-600  hover:rounded-3xl shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10   transition-all duration-250"
+            />
+            </div></TooltipTrigger>
+                  <TooltipContent side="bottom" className="-mt-4 p-1 w-full">
+
+
+            <p>Angular</p>
+            
             </TooltipContent>
           </Tooltip> */}
 
           {/* Jenkins */}
           {/* <Tooltip>
             <TooltipTrigger asChild>
-              <FaJenkins
-                size={60}
-                className="shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
-              />
-            </TooltipTrigger>
-            <TooltipContent side="bottom">
-              <p>Jenkins</p>
+            <div>
+            </div>
+            size={60}
+            className="shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10   transition-all duration-250"
+            />
+            </div></TooltipTrigger>
+                  <TooltipContent side="bottom" className="-mt-4 p-1 w-full">
+
+
+            <p>Jenkins</p>
+            
             </TooltipContent>
           </Tooltip>
            */}
           {/* Jest */}
-          {/* <Tooltip>
+          <Tooltip>
             <TooltipTrigger asChild>
-              <SiJest
-                size={60}
-                className="  hover:fill-red-500  shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250"
-              />
+
+              <div>
+                <SiJest
+                  size={60}
+                  className="   hover:fill-red-500  shadow-lg rounded-lg p-1 hover:-translate-y-2 hover:z-10  transition-all duration-250 hover:border-gray-200"
+                />
+              </div>
+
             </TooltipTrigger>
-            <TooltipContent side="bottom">
+            <TooltipContent side="bottom" className="-mt-4 p-1 ">
               <p>Jest</p>
             </TooltipContent>
-          </Tooltip> */}
+          </Tooltip>
         </TooltipProvider>
       </div>
-    </div>
+    </div >
   );
 };
